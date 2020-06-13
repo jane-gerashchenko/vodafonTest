@@ -1,0 +1,22 @@
+{
+  "name": "vodafonTest",
+  "version": "0.0.1",
+  "description": "A set of tests for Vodafon",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jane-gerashchenko//vodafonTest.git"
+  },
+  "author": "Ievgeniia Taranenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jane-gerashchenko//vodafonTest/issues"
+  },
+  "homepage": "https://github.com/jane-gerashchenko//vodafonTest#readme",
+  "devDependencies": {
+    "cypress": "^3.8.3"
+  }
+}
