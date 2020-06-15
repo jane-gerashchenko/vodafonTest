@@ -4,7 +4,7 @@
 
 [![Vodafone.nl](https://www.shebanian.com/blogitems/392-liberty-global-en-vodafone-samen-vodafoneziggo.gif)](https://www.vodafone.nl/)
 
-[![Build Status](https://travis-ci.com/github/jane-gerashchenko/vodafonTest.svg?branch=master)](https://travis-ci.com/github/jane-gerashchenko/vodafonTest)
+[![Build Status](https://api.travis-ci.org/jane-gerashchenko/vodafonTest.svg?branch=master)](https://travis-ci.com/github/jane-gerashchenko/vodafonTest)
 
 ## Installation
 To install packages use ``npm install`` command. To run the script use ``npm run cypress:open`` command.
