@@ -1,5 +1,5 @@
 {
-  "name": "vodafonTest",
+  "name": "vodafon-e2e",
   "version": "0.0.1",
   "description": "A set of tests for Vodafon",
   "scripts": {

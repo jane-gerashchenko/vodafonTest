@@ -1,0 +1,17 @@
+{
+    "initials": "I",
+    "lastName": "Taranenko",
+    "birthDate": "01",
+    "birthMonth": "01",
+    "birthYear": "1991",
+    "mobileNumber": "0629123456",
+    "email": "user@example.com",
+    "postcode": "1011VJ",
+    "houseNumber": "77",
+    "street": "Rapenburgerplein",
+    "documentType": "ID_CARD",
+    "documentNumber": "AB1234C23",
+    "documentExpirationDay": "01",
+    "documentExpirationMonth": "01",
+    "documentExpirationYear": "2025"
+}
