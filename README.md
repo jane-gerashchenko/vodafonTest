@@ -1,5 +1,3 @@
-# vodafonTest
-
 # Vodafone Test
 
 [![Vodafone.nl](https://www.shebanian.com/blogitems/392-liberty-global-en-vodafone-samen-vodafoneziggo.gif)](https://www.vodafone.nl/)
@@ -10,7 +8,7 @@
 To install packages use ``npm install`` command. To run the script use ``npm run cypress:open`` command.
 
 # User story for Vodafone.nl:
-> As a user I would like to have smooth checkout flow while ordering a smart phone (iPhone 11 yellow color) via vodafone.nl
+As a user I would like to have smooth checkout flow while ordering a smart phone (iPhone 11 yellow color) via vodafone.nl
 
 ## Assignment
   - Implement the logic for the user story above and create automated acceptance tests that ensures the implementation works correctly. Use [cypress test automation tool](https://www.cypress.io/).
