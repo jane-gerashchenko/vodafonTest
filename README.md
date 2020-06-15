@@ -6,6 +6,9 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+## Installation
+To install packages use ``npm install`` command. To run the script use ``npm run cypress:open`` command.
+
 # User story for Vodafone.nl:
 > As a user I would like to have smooth checkout flow while ordering a smart phone (iPhone 11 yellow color) via vodafone.nl
 
@@ -34,7 +37,3 @@ https://www.chromestatus.com/feature/4664843055398912
 - *Connection issues:*
 > Often I received this error at the network level: > Error: connect ECONNREFUSED 139.47.222.222:443
 > I would run those tests on a Staging environment, as Production might have a protection agains suspicios activity such repetitive actions in the tests.
-
-
-## Installation
-To install packages use ``npm install`` command. To run the script use ``npm run cypress:open`` command.
