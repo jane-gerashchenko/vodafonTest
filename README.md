@@ -16,7 +16,8 @@ As a user I would like to have smooth checkout flow while ordering a smart phone
 
 ## Implemented
  - Selecting iPhone 11 in yellow color
- - Checkout flow
+ - E2e checkout flow
+ - [Travis](https://travis-ci.org) as CI
  
 ### Chalanges
  - *Synchronous requests on before unload event:*
@@ -32,5 +33,5 @@ To mitigate this, I added uncaught exception handler to recognize them and conti
 > Some elements have data-testid attribute, some have id attribute and others have name attribute. These can all be present on an element, or just one, which makes writing and maintaining tests somewhat problematic. I would adopt PageObject pattern to move all the selectors for each page to separate file, so that maintenance is easier in case selectors are changing and this also makes tests more readable.
 
 - *Connection issues:*
-> Often I received this error at the network level: > ``Error: connect ECONNREFUSED 139.47.222.222:443``
+> Often I received this error at the network level: ``Error: connect ECONNREFUSED 139.47.222.222:443``
 > I would run those tests on a Staging environment, as Production might have a protection agains suspicios activity such repetitive actions in the tests.

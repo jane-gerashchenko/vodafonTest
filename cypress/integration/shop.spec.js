@@ -3,7 +3,7 @@ describe('Shop', function () {
 		cy.fixture('customer-data.json').as('customer');
 	});
 
-	it.only('should select yellow iPhone 11', function oldTest() {
+	it('should select yellow iPhone 11', function oldTest() {
 		cy.on('uncaught:exception', (error, runnable) => {
 			expect(error.message).to.include('Synchronous XHR in page dismissal')
 		
