@@ -35,3 +35,6 @@ To mitigate this, I added uncaught exception handler to recognize them and conti
 - *Connection issues:*
 > Often I received this error at the network level: ``Error: connect ECONNREFUSED 139.47.222.222:443``
 > I would run those tests on a Staging environment, as Production might have a protection agains suspicios activity such repetitive actions in the tests.
+
+- *Unstable tests:*
+> Currently, tests are not stable because of the issues described above. I would make them as independent as possible, so that the whole e2e suit doesn't fail if just one check fails. But I did as much as I could with the time I had.
