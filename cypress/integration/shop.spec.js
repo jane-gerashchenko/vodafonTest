@@ -22,7 +22,7 @@ describe('Shop', function () {
 		cy.get('#apple-iphone-11-64gb-yellow').click();
 	})
 
-	it.only('checkout with yellow iPhone 11', function () {
+	it('checkout with yellow iPhone 11', function () {
 		cy.on('uncaught:exception', (error, runnable) => {
 			expect(error.message).to.include('Synchronous XHR in page dismissal')
 		
