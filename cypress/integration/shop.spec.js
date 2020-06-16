@@ -3,7 +3,7 @@ describe('Shop', function () {
 		cy.fixture('customer-data.json').as('customer');
 	});
 
-	it('should select yellow iPhone 11', function oldTest() {
+	it('should select yellow iPhone 11', function() {
 		cy.on('uncaught:exception', (error, runnable) => {
 			expect(error.message).to.include('Synchronous XHR in page dismissal')
 		
@@ -22,7 +22,7 @@ describe('Shop', function () {
 		cy.get('#apple-iphone-11-64gb-yellow').click();
 	})
 
-	it('checkout with yellow iPhone 11', function (done) {
+	it.only('checkout with yellow iPhone 11', function () {
 		cy.on('uncaught:exception', (error, runnable) => {
 			expect(error.message).to.include('Synchronous XHR in page dismissal')
 		
@@ -76,7 +76,5 @@ describe('Shop', function () {
 		cy.get('#legitimatie-expiryDate-year').type(this.customer.documentExpirationYear);
 
 		cy.get('[name="identificatie"] form').submit();
-
-		done();
 	});
 })
