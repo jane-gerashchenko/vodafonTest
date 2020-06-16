@@ -34,7 +34,7 @@ describe('Shop', function () {
 		cy.visit('https://www.vodafone.nl/shop/mobiel/pakket/apple-iphone-11-64gb-yellow');
 
 		// Close cookiewall
-		cy.get('.cookiewall__cookiewall').contains('Accepteren').click();
+		// cy.get('.cookiewall__cookiewall').contains('Accepteren').click();
 
 		cy.contains('Volgende stap').click({force: true});
 
