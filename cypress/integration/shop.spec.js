@@ -34,12 +34,12 @@ describe('Shop', function () {
 		cy.visit('https://www.vodafone.nl/shop/mobiel/pakket/apple-iphone-11-64gb-yellow');
 
 		// Close cookiewall
-		// cy.get('.cookiewall__cookiewall').contains('Accepteren').click();
+		cy.contains('Accepteren').click();
 
 		cy.contains('Volgende stap').click({force: true});
 
 		// Select new contract
-		cy.get('.popup-content').contains('Ik wil een nieuw abonnement').click();
+		cy.get('.popup-content').contains('Ik wil een nieuw abonnement').click({force: true});
 		// cy.contains('Ik wil een nieuw abonnement').click();
 
 		cy.contains('Volgende stap').click({force: true});
@@ -76,5 +76,7 @@ describe('Shop', function () {
 		cy.get('#legitimatie-expiryDate-year').type(this.customer.documentExpirationYear);
 
 		cy.get('[name="identificatie"] form').submit();
+
+		done();
 	});
 })
